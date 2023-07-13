@@ -1,11 +1,37 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(0, 0, 0, 0.1) 5px, transparent 6px),
+    radial-gradient(circle at 90% 90%, rgba(0, 0, 0, 0.1) 5px, transparent 6px);
+  background-size: 150px 150px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
